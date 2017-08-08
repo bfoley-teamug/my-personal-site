@@ -9,3 +9,12 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 } 
+
+.lead {
+   text-shadow: 1px 1px white;
+} 
+
+img { 
+ border:1px solid lavender; 
+
+}

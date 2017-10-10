@@ -3,9 +3,9 @@ body {
 }  
 
 .jumbotron {
-    margin-bottom: 0px;
-    background-image: url(bay-bridge-final1.jpg);
-    background-position: 0% 25%;
+    margin-bottom: 35px; 
+    background-image: url(img/bay-bridge-final1.jpg);
+    background-position: 0% 40%;
     background-size: cover;
     background-repeat: no-repeat;
 } 
@@ -16,5 +16,77 @@ body {
 
 img { 
  border:1px solid lavender; 
+ margin: 6px 3px 3px; 
+}
 
+.img-hover:hover {
+  border-color: purple;
+}
+
+button {
+    margin-bottom: 5px; 
+}
+
+.container:nth-child(2) {
+  margin-top: 20px; 
+}
+
+h2 {
+  
+  height: 100%;
+  line-height: 14em;
+  font-size: 36px;
+  text-align: center; 
+}
+
+.tea-text {
+  font-size: 24px;
+  height: 100%;
+  padding-top: 2.8em;
+  text-align: center;
+}
+
+.tbt {
+  margin: 5em 2em 1em;  
+}
+
+@media screen and (max-width: 480px) { 
+  
+    h2 {
+      height: 100%;
+      margin: 2em;
+      line-height: 2em;
+      font-size: 36px;
+      text-align: left; 
+    }
+  
+  .jumbotron {
+    background-position: 90% 100%;
+  }
+
+  h1 {
+    text-shadow: 2px 2px white; 
+    
+  }
+
+  .lead {
+   font-size: 20px;
+   margin-top: 7em;
+   text-shadow: 2px 2px white;
+}
+  
+    .tea-text {
+      font-size: 18px;
+      height: 100%;
+      text-align: center;
+    }
+  
+  .img-hover {
+   width:30%;   
+  }
+  
+  .tbt {
+  margin: none;  
+}
+  
 }

@@ -27,6 +27,7 @@ button {
     margin-bottom: 5px; 
 }
 
+
 .container:nth-child(2) {
   margin-top: 20px; 
 }
@@ -50,6 +51,17 @@ h2 {
   margin: 5em 2em 1em;  
 }
 
+.btn {
+  color: grey;
+  border-color: grey;
+}
+
+.btn:hover {
+    background-color: #e3f2fd;
+    color: purple; 
+    border-color: purple;
+}
+
 @media screen and (max-width: 480px) { 
   
     h2 {
@@ -69,7 +81,7 @@ h2 {
     
   }
 
-  .lead {
+  .lead { 
    font-size: 20px;
    margin-top: 7em;
    text-shadow: 2px 2px white;
